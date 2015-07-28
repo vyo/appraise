@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="jumbotron col-md-8">
+    <p class="lead">
+      <img src="images/android_medium.png" alt="Android"><br>
+    </p>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Google Play Store</h3>
+      </div>
+      <table class="table table-hover table-curved">
+        <tr ng-repeat="review in reviews">
+          <td>{{review.reviewTitle}}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
